@@ -38,5 +38,8 @@ if (fabioIndex === -1) {
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole
 // e salvala nella variabile teachersString
-const teachersString = teachers.join();
+let teachersString = teachers.join();
+console.log(teachersString);
+
+teachersString = teachers.toString();
 console.log(teachersString);
